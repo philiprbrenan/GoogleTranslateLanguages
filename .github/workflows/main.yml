@@ -24,7 +24,7 @@ jobs:
 
     - name: InstallISO639
       run: |
-        sudo cpan install ISO639
+        sudo cpan install ISO::639
 
 
 
