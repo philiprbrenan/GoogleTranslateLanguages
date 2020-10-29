@@ -17,12 +17,14 @@ jobs:
         sudo apt update
         sudo apt -y install build-essential tree
 
-        - name: InstallDataTableText
+    - name: InstallDataTableText
       run: |
         sudo cpan install Data::Table::Text
+
     - name: InstallISO639
       run: |
         sudo cpan install ISO639
+
 
 
     - name: Test
